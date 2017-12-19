@@ -25,5 +25,4 @@ Interface to use [react-with-styles][react-with-styles] with [React Native][reac
 [downloads-url]: http://npm-stat.com/charts.html?package=react-native-with-styles-interface-platform
 
 [react-with-styles]: https://github.com/airbnb/react-with-styles
-[react-with-styles-interface-react-native]: https://github.com/airbnb/react-with-styles-interface-react-native
 [react-native]: https://facebook.github.io/react-native/
