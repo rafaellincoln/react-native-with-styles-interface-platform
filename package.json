@@ -1,6 +1,6 @@
 {
   "name": "react-native-with-styles-interface-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-with-styles interface for React Native with Platforms separete",
   "main": "lib/reactNativeInterface.js",
   "directories": {

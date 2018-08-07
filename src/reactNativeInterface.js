@@ -7,10 +7,10 @@ export default {
       const { ios, android, ...style } = { ...styles[name] };
       let sytleHash = { ...style };
       if (ios && Platform.OS === 'ios') {
-        sytleHash = { ...style, ...ios };
+        sytleHash = { ...ios, ...style };
       }
       if (android && Platform.OS === 'android') {
-        sytleHash = { ...style, ...android };
+        sytleHash = { ...android, ...style };
       }
       platformStyles[name] = sytleHash;
     });
