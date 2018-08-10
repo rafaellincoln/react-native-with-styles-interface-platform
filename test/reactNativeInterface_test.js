@@ -73,6 +73,19 @@ describe('reactNativeInterface', () => {
         });
     });
 
+    it('handles an object with inline styles Custom Prop', () => {
+      const style = {
+        color: 'red',
+      };
+
+      expect(reactNativeInterface.resolve([style], 'imageStyle'))
+        .to.eql({
+          imageStyle: [{
+            color: 'red',
+          }],
+        });
+    });
+
     it('handles multiple objects with inline styles', () => {
       const styleA = {
         color: 'red',
