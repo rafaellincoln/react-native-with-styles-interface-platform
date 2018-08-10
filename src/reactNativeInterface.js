@@ -20,9 +20,11 @@ export default {
   // Styles is an array of properties returned by `create()`, a POJO, or an
   // array thereof. POJOs are treated as inline styles.
   // This function returns an object to be spread onto an element.
-  resolve(styles, prop = 'style') {
+  resolve(styles, prop) {
+    const propName = prop || 'style';
     const style = {};
-    style[prop] = styles;
+
+    style[propName] = styles;
 
     return style;
   },
